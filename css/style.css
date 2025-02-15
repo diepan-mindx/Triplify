@@ -62,13 +62,17 @@ button {
 
 /*--------header---------*/
 header {
-  height: 10vh;
-  line-height: 10vh;
+  height: 8vh;
+  line-height: 8vh;
   padding: 0 20px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: white;
 }
 
-header img {
-  margin: 20px 0;
+header .logo img {
+  margin: 15px 0;
 }
 
 header ul {
