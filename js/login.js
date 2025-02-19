@@ -36,6 +36,8 @@ function checkLoginAccount(defaultAccount) {
       // dung email -> so sanh password
       if (defaultAccount.password == password) {
         alert("Login successfully!");
+        // luu lại thông tin đăng nhập
+        localStorage.setItem("currentUser", email);
         // chuyen sang index
         location.href = "../index.html";
         return; // kiem tra xong -> thoat ham -> khong lam gi them
